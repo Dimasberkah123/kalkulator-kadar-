@@ -226,5 +226,5 @@ def calculate_cu_liquid():
     if hitung_cu:
         kadar_cemaran_cu = (c_terukur * v * FP) / (volume_sampel)
         st.write(f"Hasil perhitungan kadar cemaran Cu = {kadar_cemaran_cu} ppm")
-if _name_=='_main_':
+if _name_ == '_main_':
     main()
